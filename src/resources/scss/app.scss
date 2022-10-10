@@ -1,0 +1,78 @@
+.card-course-item {
+    margin-top: 16px;
+}
+.home__btn{
+    color: #fff;
+    background-color: #343a40;
+    border: none;
+}
+.home__btn:hover{
+    color: #ccc;
+    background-color: #343a40;
+}
+.home__card-title{
+    text-decoration: none;
+    color: #343a40;
+}
+.home__card-title:hover{
+    text-decoration: underline;
+}
+.nav-item .nav-link{
+    color: #fff;
+}
+.Create-video--red{
+    color: red;
+    text-decoration: underline;
+}
+footer{
+    background-color: #343a40;
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.footer_text-center,
+.footer_text-center a{
+    color: #ccc;
+    background-color: #343a40;
+}
+.footer_text-center a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.dropdown-menu a:hover{
+    color: #fff;
+    background-color: #343a40;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #ccc !important;
+}
+.update-btn{
+    color: #2c7e43;
+}
+.delete-btn{
+    color: red;
+}
+.update-btn:hover,
+.delete-btn:hover{
+    text-decoration: none;
+}
+.update-btn:hover{
+    color: #2c7e43;
+}
+.delete-btn:hover{
+    color: red;
+}
+.delete-btn-modal{
+    color: white;
+    opacity: 0.7;
+    background-color: red;
+    border: none;
+}
+.delete-btn-modal:hover{
+    color: white;
+    opacity: 1;
+    background-color: red;
+    border: none;
+}
