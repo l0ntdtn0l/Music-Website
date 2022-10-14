@@ -10,6 +10,7 @@ const route = require('./routes');
 const db = require('./config/db');
 
 const bodyParser = require('body-parser');
+const { env } = require('process');
 
 app.use(
     bodyParser.urlencoded({
