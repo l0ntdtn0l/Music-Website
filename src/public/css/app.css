@@ -96,4 +96,8 @@ footer {
   border: none;
 }
 
+#search {
+  display: list-item;
+}
+
 /*# sourceMappingURL=app.css.map */

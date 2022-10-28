@@ -31,8 +31,25 @@
 
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input type="search" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" value="{{course.name}}" id="name" name="name">
+      <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
+
+<script>
+function search_animal() {
+    let input = document.getElementById('name').value
+    input=input.toLowerCase();
+    let x = document.getElementsByName('name').value;
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+</script>

@@ -7,7 +7,7 @@ async function connect() {
             useUnifiedTopology: true,
             // useCreateIndex: true,
         });
-        console.log('succasc');
+        console.log('success');
     } catch (error) {
         handleError(error);
     }
